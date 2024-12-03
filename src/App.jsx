@@ -1,9 +1,10 @@
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Pricing from './components/Pricing/Pricing'
-import Faq from './components/Faq/Faq'
+import Stats from './components/Stats/Stats'
 import "../src/components/Hero/style.css"
 import Footer from './components/Footer/Footer'
+import Faq from './components/Faq/Faq'
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <Pricing/>
       <Faq/>
+      <Stats/>
       <Footer/>
     </div>
   )

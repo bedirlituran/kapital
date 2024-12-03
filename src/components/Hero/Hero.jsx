@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero= () => {
   return (
-    <section className="relative h-screen flex flex-col items-center justify-center text-center text-white">
+    <section className="relative h-[490px] flex flex-col items-center justify-center text-center text-white">
       {/* Video Layer */}
       <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video
@@ -18,8 +18,8 @@ const Hero= () => {
       
       {/* Overlay Content */}
       <div className="video-content space-y-2 z-10">
-        <h1 className="font-boz text-6xl">Kapital Telecom</h1>
-        <h3 className="font-boz text-3xl">Ölkədə Lider</h3>
+        <h1 className="font-boz text-6xl">Fiber Optik internetlə </h1>
+        <h3 className="font-boz text-3xl">Dünyaya sürətlə qoşul</h3>
       </div>
     </section>
   );

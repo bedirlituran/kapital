@@ -2,7 +2,7 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <div className="dark:bg-gray-800 h-screen ">
+    <div className="dark:bg-gray-800 h-[300px] ">
 
     <div className="col-span-3 md:col-span-2 flex flex-col items-center md:items-start gap-4 pt-16 px-2">
 
